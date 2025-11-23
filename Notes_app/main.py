@@ -6,3 +6,6 @@ app = FastAPI()
 def hello():
     return "Welcome to my notes application"
 
+@app.get("/name")
+def name():
+    return "Meghaj"
